@@ -1,3 +1,2 @@
 stopwords
 cosine_distance
-corpus
