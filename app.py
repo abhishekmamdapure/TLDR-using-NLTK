@@ -12,16 +12,9 @@ def home():
     return render_template('home.html')
 
 
-# @app.route('/line',methods=['POST'])
 
-# def line():
-#     if request.method == 'POST':
-#         quantity = request.form['quantity']
-#         return quantity
 
-# number = line()
-
-@app.route('/upload', methods=['POST'])
+@app.route('/predict', methods=['POST'])
 def predict():
     if request.method == 'POST':
         message = request.form['message']
