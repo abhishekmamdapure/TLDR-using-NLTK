@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<style>
+
+footer {
+  text-align: center;
+  padding: 3px;
+  background-color: #F1F1F1;
+  color: black;
+}
+
+</style>
+	<title></title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body align = 'justify'>
+
+	<header>
+		<div class="container">
+		<div id="brandname">
+			<h2 align='center'>SUMMARY FOR THE TEXT SUBMITTED</h2>
+		</div>
+		
+		
+	</div>
+	</header>
+	
+	<br/>
+	<br/>
+	
+	<div class="results">
+
+		
+	{% print(prediction) %}
+	
+
+	</div>
+	
+	<br/>
+	<br/>
+		<br/>
+	<br/>
+		<br/>
+	<br/>
+	
+	<footer>
+  <p>Project by:<a href="abhishekmamdapure.github.io">Abhishek Mamdapure</a></p>
+</footer>
+
+</body>
+</html>
